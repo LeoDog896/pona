@@ -1,1 +1,3 @@
-export default 2
+import run from "./lib"
+
+await run(__dirname)

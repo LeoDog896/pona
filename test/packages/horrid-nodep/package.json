@@ -1,0 +1,9 @@
+{
+  "name": "horrid",
+  "version": "1.0.0",
+  "description": "horrid package",
+  "main": "src/index.js",
+  "scripts": {},
+  "author": "LeoDog896",
+  "license": "Apache-2.0"
+}

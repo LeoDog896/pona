@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "test": "tsc && jest"
+    "test": "tsc && jest",
+	"run": "tsc && node dist/index.js"
   },
   "bin": {
 	  "pona": "dist/cli.js"
