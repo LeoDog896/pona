@@ -7,6 +7,9 @@
   "scripts": {
     "test": "tsc && jest"
   },
+  "bin": {
+	  "pona": "dist/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LeoDog896/pona.git"
@@ -30,5 +33,8 @@
     "jest": "^27.5.1",
     "ts-jest": "^27.1.3",
     "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
   }
 }
